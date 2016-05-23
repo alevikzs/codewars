@@ -1,4 +1,4 @@
-package codewars.ReachMeAndSumMyDigits;
+package ReachMeAndSumMyDigits;
 
 public class SumDigNth {
 
