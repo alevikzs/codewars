@@ -1,5 +1,8 @@
 package ReachMeAndSumMyDigits;
 
+/**
+ * http://www.codewars.com/kata/55ffb44050558fdb200000a4
+ */
 public class SumDigNth {
 
     public static long sumDigNthTerm(long initVal, long[] patternl, int nthTerm) {
