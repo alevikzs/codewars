@@ -8,10 +8,6 @@ import java.util.List;
  */
 public class DoubleLinear {
 
-    public static void main(String[] args) {
-        System.out.println(DoubleLinear.dblLinear(50));
-    }
-
     public static int dblLinear(int n) {
         List<Integer> sequence = new ArrayList<Integer>();
         sequence.add(1);
@@ -33,8 +29,6 @@ public class DoubleLinear {
 
             index++;
         }
-
-        System.out.println(sequence);
 
         return sequence.get(n);
     }
