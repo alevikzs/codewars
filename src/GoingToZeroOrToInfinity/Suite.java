@@ -11,18 +11,19 @@ public class Suite {
     public static double going(int n) {
         BigDecimal sum = new BigDecimal("1");
 
-        int currentN = n;
+        int index = 2;
 
-        while (currentN > 1) {
-            sum = sum.add(Suite.factorial(currentN));
-            currentN--;
+        BigDecimal factorial = new BigDecimal("1");
+
+        while (index <= n) {
+            factorial = factorial.multiply(new BigDecimal(index));
+
+            sum = sum.add(factorial);
+
+            index++;
         }
 
-        return sum.divide(factorial(n), 6, RoundingMode.DOWN).doubleValue();
-    }
-
-    private static BigDecimal factorial(Integer n) {
-        return n == 0 ? new BigDecimal("1") : factorial(n - 1).multiply(new BigDecimal(n.toString()));
+        return sum.divide(factorial, 6, RoundingMode.DOWN).doubleValue();
     }
 
 }
