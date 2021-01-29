@@ -1,5 +1,3 @@
-package IntegersRecreationTwo;
-
 import java.util.*;
 
 /**

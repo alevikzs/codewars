@@ -1,5 +1,3 @@
-package SpecialMultiples;
-
 import java.util.*;
 
 /**

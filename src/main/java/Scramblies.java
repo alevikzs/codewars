@@ -1,5 +1,3 @@
-package Scramblies;
-
 /**
  * https://www.codewars.com/kata/scramblies
  */
