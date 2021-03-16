@@ -1,4 +1,7 @@
+package com.alevikzs.codewars;
+
 import static org.junit.Assert.*;
+
 import org.junit.Test;
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +10,7 @@ public class SqProd2SumTest {
 
     @Test
     public void test() {
-        List<long[]> exp = new ArrayList<long[]>();
+        List<long[]> exp = new ArrayList<>();
         long[] cc = new long[] {-5, 5};
         exp.add(cc);
         long[] dd = new long[] {1, 7};

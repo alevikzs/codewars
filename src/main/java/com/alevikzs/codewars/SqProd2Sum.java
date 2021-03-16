@@ -1,3 +1,5 @@
+package com.alevikzs.codewars;
+
 import java.util.*;
 
 /**

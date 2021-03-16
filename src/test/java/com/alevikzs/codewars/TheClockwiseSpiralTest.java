@@ -1,10 +1,12 @@
+package com.alevikzs.codewars;
+
 import org.junit.Assert;
 import org.junit.Test;
 
 public class TheClockwiseSpiralTest {
 
     @Test
-    public void testCreateSpiral() throws Exception {
+    public void testCreateSpiral() {
         int[][] expected = new int[][]{
                 {1, 2, 3},
                 {8, 9, 4},

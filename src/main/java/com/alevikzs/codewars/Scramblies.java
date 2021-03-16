@@ -1,3 +1,5 @@
+package com.alevikzs.codewars;
+
 /**
  * https://www.codewars.com/kata/scramblies
  */

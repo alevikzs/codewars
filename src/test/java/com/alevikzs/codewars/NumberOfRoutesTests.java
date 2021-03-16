@@ -1,5 +1,8 @@
+package com.alevikzs.codewars;
+
 import java.math.BigInteger;
 import static org.junit.Assert.*;
+
 import org.junit.Test;
 
 public class NumberOfRoutesTests {

@@ -1,3 +1,5 @@
+package com.alevikzs.codewars;
+
 /**
  * http://www.codewars.com/kata/55ffb44050558fdb200000a4
  */
