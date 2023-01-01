@@ -1,10 +1,11 @@
 package com.alevikzs.codewars;
 
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
 import java.util.ArrayList;
 import java.util.List;
+
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 public class SqProd2SumTest {
 
@@ -18,7 +19,7 @@ public class SqProd2SumTest {
         assertArrayEquals(exp.get(0), SqProd2Sum.prod2Sum(1, 2, 1, 3).get(0));
         assertArrayEquals(exp.get(1), SqProd2Sum.prod2Sum(1, 2, 1, 3).get(1));
 
-        exp = new ArrayList<long[]>();
+        exp = new ArrayList<>();
         cc = new long[] {-7, 22};
         exp.add(cc);
         dd = new long[] {-2, 23};

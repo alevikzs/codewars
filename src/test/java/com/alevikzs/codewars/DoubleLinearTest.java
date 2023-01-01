@@ -1,21 +1,17 @@
 package com.alevikzs.codewars;
 
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class DoubleLinearTest {
 
-    private static void testing(int actual, int expected) {
-        assertEquals(expected, actual);
-    }
-
     @Test
     public void test() {
-        testing(DoubleLinear.dblLinear(10), 22);
-        testing(DoubleLinear.dblLinear(20), 57);
-        testing(DoubleLinear.dblLinear(30), 91);
-        testing(DoubleLinear.dblLinear(50), 175);
-
+        assertEquals(DoubleLinear.dblLinear(10), 22);
+        assertEquals(DoubleLinear.dblLinear(20), 57);
+        assertEquals(DoubleLinear.dblLinear(30), 91);
+        assertEquals(DoubleLinear.dblLinear(50), 175);
     }
+
 }

@@ -1,7 +1,8 @@
 package com.alevikzs.codewars;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 public class TheClockwiseSpiralTest {
 
@@ -12,7 +13,7 @@ public class TheClockwiseSpiralTest {
                 {8, 9, 4},
                 {7, 6, 5}};
 
-        Assert.assertArrayEquals(expected, TheClockwiseSpiral.createSpiral(3));
+        assertArrayEquals(expected, TheClockwiseSpiral.createSpiral(3));
     }
 
 }

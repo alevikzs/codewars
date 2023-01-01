@@ -1,27 +1,24 @@
 package com.alevikzs.codewars;
 
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class ScrambliesTest {
 
-    private static void testing(boolean actual, boolean expected) {
-        assertEquals(expected, actual);
-    }
-
     @Test
     public void test() {
-        testing(Scramblies.scramble("rkqodlw","world"), true);
-        testing(Scramblies.scramble("cedewaraaossoqqyt","codewars"),true);
-        testing(Scramblies.scramble("katas","steak"),false);
-        testing(Scramblies.scramble("scriptjavx","javascript"),false);
-        testing(Scramblies.scramble("scriptingjava","javascript"),true);
-        testing(Scramblies.scramble("scriptsjava","javascripts"),true);
-        testing(Scramblies.scramble("javscripts","javascript"),false);
-        testing(Scramblies.scramble("aabbcamaomsccdd","commas"),true);
-        testing(Scramblies.scramble("commas","commas"),true);
-        testing(Scramblies.scramble("sammoc","commas"),true);
+        assertTrue(Scramblies.scramble("rkqodlw", "world"));
+        assertTrue(Scramblies.scramble("cedewaraaossoqqyt", "codewars"));
+        assertFalse(Scramblies.scramble("katas", "steak"));
+        assertFalse(Scramblies.scramble("scriptjavx", "javascript"));
+        assertTrue(Scramblies.scramble("scriptingjava", "javascript"));
+        assertTrue(Scramblies.scramble("scriptsjava", "javascripts"));
+        assertFalse(Scramblies.scramble("javscripts", "javascript"));
+        assertTrue(Scramblies.scramble("aabbcamaomsccdd", "commas"));
+        assertTrue(Scramblies.scramble("commas", "commas"));
+        assertTrue(Scramblies.scramble("sammoc", "commas"));
     }
 
 }
