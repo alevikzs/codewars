@@ -3,7 +3,7 @@ package com.alevikzs.codewars;
 import java.util.List;
 
 /**
- * https://www.codewars.com/kata/515bb423de843ea99400000a
+ * <a href="https://www.codewars.com/kata/515bb423de843ea99400000a">Pagination Helper</a>
  */
 public final class PaginationHelper<I> {
 

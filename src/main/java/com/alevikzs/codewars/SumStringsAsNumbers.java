@@ -40,7 +40,7 @@ public class SumStringsAsNumbers {
     }
 
     private static String clearFirstZero(String number) {
-        while(number.length() > 1 && number.startsWith("0")) {
+        while (number.length() > 1 && number.startsWith("0")) {
             number = number.substring(1);
         }
 

@@ -1,9 +1,9 @@
 package com.alevikzs.codewars;
 
-import java.util.*;
+import java.util.ArrayList;
 
 /**
- * http://www.codewars.com/kata/55e785dfcb59864f200000d9
+ * <a href="https://www.codewars.com/kata/55e785dfcb59864f200000d9">Count Multiples</a>
  */
 public class CountMultiples {
 
@@ -28,13 +28,13 @@ public class CountMultiples {
     }
 
     private static ArrayList<Long> findPrimes(long count) {
-        ArrayList<Long> primes = new ArrayList<Long>();
+        ArrayList<Long> primes = new ArrayList<>();
 
         long number = 2;
         long index = 1;
 
         while (index <= count) {
-            Boolean isPrime = true;
+            boolean isPrime = true;
 
             for (long prime : primes) {
                 if (prime != 0 && number % prime == 0) {

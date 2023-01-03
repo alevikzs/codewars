@@ -3,7 +3,7 @@ package com.alevikzs.codewars;
 import java.util.Arrays;
 
 /**
- * https://www.codewars.com/kata/515e271a311df0350d00000f
+ * <a href="https://www.codewars.com/kata/515e271a311df0350d00000f">Square Sum</a>
  */
 public class SquareSum {
 

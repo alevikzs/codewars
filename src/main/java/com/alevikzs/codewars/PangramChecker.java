@@ -1,7 +1,7 @@
 package com.alevikzs.codewars;
 
 /**
- * https://www.codewars.com/kata/545cedaa9943f7fe7b000048
+ * <a href="https://www.codewars.com/kata/545cedaa9943f7fe7b000048">Pangram Checker</a>
  */
 public class PangramChecker {
 

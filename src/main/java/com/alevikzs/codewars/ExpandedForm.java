@@ -4,7 +4,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 /**
- * https://www.codewars.com/kata/5842df8ccbd22792a4000245
+ * <a href="https://www.codewars.com/kata/5842df8ccbd22792a4000245">Expanded Form</a>
  */
 public class ExpandedForm {
 

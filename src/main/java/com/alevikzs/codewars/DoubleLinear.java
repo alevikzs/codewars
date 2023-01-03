@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * https://www.codewars.com/kata/5672682212c8ecf83e000050
+ * <a href="https://www.codewars.com/kata/5672682212c8ecf83e000050">Double Linear</a>
  */
 class DoubleLinear {
 
-    public static int dblLinear (int n) {
+    public static int dblLinear(int n) {
         final List<Integer> list = new ArrayList<>();
         list.add(1);
 

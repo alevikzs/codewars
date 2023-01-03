@@ -1,7 +1,7 @@
 package com.alevikzs.codewars;
 
 /**
- * http://www.codewars.com/kata/536a155256eb459b8700077e
+ * <a href="http://www.codewars.com/kata/536a155256eb459b8700077e">The Clockwise Spiral</a>
  */
 public class TheClockwiseSpiral {
 
@@ -29,7 +29,7 @@ public class TheClockwiseSpiral {
         if (TheClockwiseSpiral.isJActive) {
             if (TheClockwiseSpiral.canSetNumberToArray(position[0], position[1] + 1, n, spiral)) {
                 position[1] += 1;
-            } else if(TheClockwiseSpiral.canSetNumberToArray(position[0], position[1] - 1, n, spiral)) {
+            } else if (TheClockwiseSpiral.canSetNumberToArray(position[0], position[1] - 1, n, spiral)) {
                 position[1] -= 1;
             } else {
                 TheClockwiseSpiral.isJActive = false;
@@ -37,16 +37,16 @@ public class TheClockwiseSpiral {
         }
 
         if (!TheClockwiseSpiral.isJActive) {
-            if(TheClockwiseSpiral.canSetNumberToArray(position[0] + 1, position[1], n, spiral)) {
+            if (TheClockwiseSpiral.canSetNumberToArray(position[0] + 1, position[1], n, spiral)) {
                 position[0] += 1;
-            } else if(TheClockwiseSpiral.canSetNumberToArray(position[0] - 1, position[1], n, spiral)) {
+            } else if (TheClockwiseSpiral.canSetNumberToArray(position[0] - 1, position[1], n, spiral)) {
                 position[0] -= 1;
             } else {
                 TheClockwiseSpiral.isJActive = true;
 
                 if (TheClockwiseSpiral.canSetNumberToArray(position[0], position[1] + 1, n, spiral)) {
                     position[1] += 1;
-                } else if(TheClockwiseSpiral.canSetNumberToArray(position[0], position[1] - 1, n, spiral)) {
+                } else if (TheClockwiseSpiral.canSetNumberToArray(position[0], position[1] - 1, n, spiral)) {
                     position[1] -= 1;
                 }
             }

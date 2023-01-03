@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 
 /**
- * https://www.codewars.com/kata/55a29405bc7d2efaff00007c
+ * <a href="https://www.codewars.com/kata/55a29405bc7d2efaff00007c">Suite</a>
  */
 public class Suite {
 

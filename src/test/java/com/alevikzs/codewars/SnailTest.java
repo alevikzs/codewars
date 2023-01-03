@@ -3,6 +3,7 @@ package com.alevikzs.codewars;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
+
 import static java.util.stream.Collectors.joining;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
@@ -25,7 +26,7 @@ public class SnailTest {
     public void test(int[][] array, int[] result) {
         String text = int2dToString(array) + " should be sorted to " + Arrays.toString(result);
         System.out.println(text);
-        assertArrayEquals( result, Snail.snail(array));
+        assertArrayEquals(result, Snail.snail(array));
     }
 
 }

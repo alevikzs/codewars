@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1
+ * <a href="https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1">Snail</a>
  */
 public class Snail {
 
@@ -27,7 +27,7 @@ public class Snail {
 
     private static int[][] coords(final int n) {
         final List<Integer> parts = parts(n);
-        final int[][] coordinates = new int[n*n][2];
+        final int[][] coordinates = new int[n * n][2];
         int index = 0;
         int[] coordinate = {0, 0};
         int direction = 1;
@@ -43,7 +43,7 @@ public class Snail {
 
             for (int i2 = 0; i2 < parts.get(i1); i2++) {
                 if (i1 != 0 || i2 != 0) {
-                    coordinate = new int[] {coordinate[0], coordinate[1]};
+                    coordinate = new int[]{coordinate[0], coordinate[1]};
                     coordinate[position] = coordinate[position] + direction;
                 }
 

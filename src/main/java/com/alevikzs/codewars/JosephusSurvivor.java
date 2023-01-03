@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- * https://www.codewars.com/kata/555624b601231dc7a400017a
+ * <a href="https://www.codewars.com/kata/555624b601231dc7a400017a">Josephus Survivor</a>
  */
 public class JosephusSurvivor {
 

@@ -1,7 +1,7 @@
 package com.alevikzs.codewars;
 
 /**
- * http://www.codewars.com/kata/55ffb44050558fdb200000a4
+ * <a href="https://www.codewars.com/kata/55ffb44050558fdb200000a4">Sum Dig Nth</a>
  */
 public class SumDigNth {
 
